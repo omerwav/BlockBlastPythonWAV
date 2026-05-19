@@ -1,15 +1,15 @@
-60 FPS Akıcılık: Kod yapısını tamamen elden geçirdim. Bellek sızıntılarına (memory leak) sebep olan ve her karede gereksiz tetiklenen döngüleri temizledim. Oyun en yoğun patlama anlarında bile donmadan, tamamen akıcı çalışıyor.
+60 FPS Akıcılık Performansı: Kod yapısının optimizasyonu sayesinde en yoğun oyun anlarında dahi donma yaşanmadan yüksek akıcılıkta deneyim sunulmaktadır.
 
-Hayalet Blok (Ghost Piece) Sistemi: Blokları sürüklerken tahtada nereye oturacaklarını gösteren yarı saydam bir gölge ekledim. Bu sayede hatalı yerleştirmelerin önüne geçiliyor ve çok daha rahat bir oynanış sunuyor.
+Hayalet Blok Sistemi: Blokların tahtada yerleşeceği konumu önceden gösteren gölge mekanizması sayesinde hatalı hamlelerin önüne geçilerek oynanış kolaylaştırılmaktadır.
 
-Ekran Sarsıntısı (Screen Shake): Bloklar patladığında veya kombo yapıldığında, patlamanın büyüklüğüne göre ekran dinamik olarak titriyor. Oyuna harika bir vuruş ve tokluk hissi kattı.
+Dinamik Ekran Sarsıntısı: Blok patlamaları ve kombo anlarında tetiklenen sarsıntı efekti ile oyuna vuruş ve tokluk hissi kazandırılmaktadır.
 
-Kombo ve Skor Çarpanları: Ardı ardına yapılan temizlemelerde 2x, 3x gibi kombo çarpanları devreye giriyor. Yüksek skorlarda ekranda parlayan özel animasyonlu yazılar yükseliyor.
+Kombo ve Skor Çarpan Mekaniği: Ardı ardına yapılan temizlemelerde devreye giren çarpanlar ile skor potansiyeli artırılmakta ve özel animasyonlu yazılarla görsel geri bildirim sağlanmaktadır.
 
-Dinamik Parçacık Efektleri: Satır ve sütunlar silindiğinde çevreye dağılan, yer çekiminden etkilenen ve zamanla şeffaflaşarak kaybolan fizik parçacıkları kodladım.
+Dinamik Parçacık Efektleri: Satır ve sütun temizleme anlarında yer çekiminden etkilenen, zamanla şeffaflaşarak kaybolan fizik tabanlı parçacıklar kullanılmaktadır.
 
-Gelişmiş Tema Desteği: Oyun içinde anında değiştirilebilir 3 farklı renk paleti bulunuyor (Klasik Blue, Retro Pembe, Enerji Yeşil). Blok ve panel renkleri seçilen temaya göre otomatik şekilleniyor.
+Gelişmiş Tema Desteği: Oyun içerisinde anlık geçiş yapılabilen farklı renk paleti seçenekleri ile blok ve panel görünümleri dinamik olarak güncellenmektedir.
 
-Grafik ve Yazı Önbellekleme: Skorlar ve yazılar her karede sıfırdan çizilmek yerine sadece değiştikçe bellekte güncelleniyor. Bu da işlemci ve ekran kartı yükünü neredeyse sıfıra indirdi.
+Grafik ve Yazı Önbellekleme: Skor ve metinlerin her karede yeniden çizilmesi yerine sadece değişim anlarında güncellenmesi sayesinde sistem kaynakları verimli kullanılmaktadır.
 
-Skor Hafızası ve Rekor Takibi: Hamle kalmadığında devreye giren şık bir bitiş ekranı var. En yüksek skoru hafızada tutuyor ve rekor kırıldığında özel bir kutlama efekti devreye giriyor.
+Skor Hafızası ve Rekor Takibi: Yüksek skorların bellekte tutulması ve rekor kırıldığında özel kutlama efektlerinin devreye girmesiyle rekabetçi bir oynanış desteklenmektedir.
