@@ -1,17 +1,7 @@
-# =========================================================
-# BLOCK BLAST PREMIUM
-# ULTRA OPTIMIZED FULL VERSION
-# MAVIS + TATLIS PEMBE THEMES
-# SETTINGS + COMBO + PARTICLES + GHOST
-# =========================================================
-
 import pygame
 import random
 import sys
 
-# =========================================================
-# INIT
-# =========================================================
 
 pygame.init()
 pygame.font.init()
@@ -25,7 +15,7 @@ screen = pygame.display.set_mode(
     vsync=1
 )
 
-pygame.display.set_caption("Block Blast Premium")
+pygame.display.set_caption("for you <3")
 
 clock = pygame.time.Clock()
 FPS = 144
