@@ -13,3 +13,6 @@ Gelişmiş Tema Desteği: Oyun içerisinde anlık geçiş yapılabilen farklı r
 Grafik ve Yazı Önbellekleme: Skor ve metinlerin her karede yeniden çizilmesi yerine sadece değişim anlarında güncellenmesi sayesinde sistem kaynakları verimli kullanılmaktadır.
 
 Skor Hafızası ve Rekor Takibi: Yüksek skorların bellekte tutulması ve rekor kırıldığında özel kutlama efektlerinin devreye girmesiyle rekabetçi bir oynanış desteklenmektedir.
+
+
+Kütüphaneleri yüklemek icin ise Visual Studiodan terminale "pip install pygame" "pip install random" "pip install sys" yazmak yeterlidir.
