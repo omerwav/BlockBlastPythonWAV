@@ -1117,7 +1117,7 @@ while True:
         )
 
         rr = render_text(
-            "Tekrar oynamak icin R",
+            "EZIK! KAYBETTIN R TUSUNA BAS",
             20,
             theme["text"]
         )
@@ -1131,3 +1131,7 @@ while True:
         )
 
     pygame.display.flip()
+    
+    
+    
+    
